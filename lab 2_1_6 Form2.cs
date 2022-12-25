@@ -38,7 +38,7 @@ namespace WindowsFormsApp3
         }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            software1 = comboBaox1.Items[comboBox1.SelectedIndex].ToString();
+            software1 = comboBox1.Items[comboBox1.SelectedIndex].ToString();
             if (software1 != null)
             {
                 label6.Visible = true;
